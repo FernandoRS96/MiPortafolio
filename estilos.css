@@ -1,0 +1,94 @@
+/* Estilos creados por [Fernando Ramos Salinas] */
+.ovalo-rectangular {
+    width: 200px; /* ancho */
+    height: 300px; /* alto */
+    background-color: #3498db;
+    border-radius: 50% / 50%; /* ovalo */
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Sombra */
+    float: right;
+}
+
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos carousel de imagenes */
+#carousel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/*video*/
+.video-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100%; /* Haz que el video sea responsivo en móviles */
+    height: 50%;
+}
+
+.text-and-video-container {
+    display: flex;
+    flex-direction: column; /* Cambia a columna en móviles */
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    margin-bottom: 20px; /* Agrega margen inferior para separar texto y video en móviles */
+}
+
+.video {
+    flex: 1;
+}
+
+a {
+    color: white;
+}
+
+.tex {
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0px black; /* grosor y el color del borde */
+}

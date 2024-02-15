@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <head>
+        <title>Experiencia de Fernado Ramos S.</title>
+        <style>
+
+            /* Estilos para el fondo */
+            body {
+                margin: 0;
+                background: url('/imagen/ex.jpg') center center / cover no-repeat fixed;
+                color: white;
+                padding: 0;
+                font-family: 'PT Sans', Arial, Verdana;
+            }
+
+            .tex {
+                letter-spacing: 3px;
+                -webkit-text-stroke: 0px black; /* grosor y el color del borde */
+            }
+
+            .overlay {
+                background: rgba(0, 0, 0, 0.7);
+                box-sizing: border-box;
+                width: 100%;
+            }
+
+            /* Estilos para el menú */
+            * {
+                box-sizing: border-box;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 48px;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                color: #222;
+            }
+
+            .menu {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 50px;
+                margin: auto;
+                position: relative;
+                background-color: #2c3e50;
+                z-index: 7;
+            }
+
+            .menu li {
+                float: left;
+                width: 25%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            .menu a {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                text-decoration: none;
+                position: relative;
+                font-size: 18px;
+                z-index: 9;
+            }
+
+            a.active {
+                background-color: #e74c3c;
+                pointer-events: none;
+            }
+
+            li.slider {
+                width: 25%;
+                height: 100%;
+                position: absolute;
+                left: 50%; /* Ajusta la posición inicial al 25% para el segundo título */
+                top: 0;
+                background-color: #e74c3c;
+                z-index: 8;
+                transition: left .4s, background-color .4s;
+            }
+
+            .menu li:nth-child(1):hover ~ .slider,
+            .menu li:nth-child(1):focus ~ .slider,
+            .menu li:nth-child(1):active ~ .slider {
+                left: 0;
+                background-color: #3498db;
+            }
+
+            .menu li:nth-child(2):hover ~ .slider,
+            .menu li:nth-child(2):focus ~ .slider,
+            .menu li:nth-child(2):active ~ .slider {
+                left: 25%;
+                background-color: #9b59b6;
+            }
+
+            .menu li:nth-child(3):hover ~ .slider,
+            .menu li:nth-child(3):focus ~ .slider,
+            .menu li:nth-child(3):active ~ .slider {
+                left: 50%;
+                background-color: #e67e22;
+            }
+
+            .menu li:nth-child(4):hover ~ .slider,
+            .menu li:nth-child(4):focus ~ .slider,
+            .menu li:nth-child(4):active ~ .slider {
+                left: 75%;
+                background-color: #16a085;
+            }
+
+
+            /* Estilos formato */
+            .section {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            table {
+                width: 90%;
+                border-collapse: collapse;
+                margin: 20px auto;
+            }
+
+            table, th, td {
+                border: 0px solid #ddd;
+            }
+
+            th, td {
+                padding: 10px;
+                text-align: justify;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="overlay">
+            <ul class="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/Portafolio.html">Portafolio</a></li>
+                <li><a href="/Experiencia.html" class="active">Experiencia</a></li>
+                <li><a href="/Referencias.html">Referencias </a></li>
+                <li class="slider"></li>
+            </ul>
+
+            <h1 style="color: white;">Experiencia</h1>
+            <div class="tex">
+                <section class="section">
+                    <h2>Auxiliar en el área de informática 
+                    </h2>
+                    <h3>biblioteca central del estado de Hidalgo Ricardo Garibay</h3>
+                    <h4>jul. 2013 - ene. 2014 · 7 meses</h4>
+                    <table>
+                        <tr>
+                            <td>Servicio Social en Conalep Pachuca II - Biblioteca Central del Estado de Hidalgo "Ricardo Garibay" (Auxiliar en el Área de Informática)
+                                <br><br>
+                                Durante mi servicio social en Conalep Pachuca II, desempeñé el rol de Auxiliar en el área de informática en la Biblioteca Central del Estado de Hidalgo "Ricardo Garibay". Aporté de manera integral a las operaciones del departamento, centrándome en las siguientes responsabilidades y habilidades:
+                                <br><br>-Atención al Usuario:
+                                Proporcioné atención al usuario de manera proactiva, asegurando que las necesidades informáticas fueran comprendidas y atendidas de manera eficiente.
+                                <br>-Mantenimiento Correctivo y Preventivo Informático:
+                                Realicé labores de mantenimiento correctivo y preventivo en sistemas informáticos, garantizando la disponibilidad continua de equipos y la minimización de problemas técnicos.
+                                <br>-Colaboración Interdepartamental:
+                                Trabajé en estrecha colaboración con otros departamentos y equipos, facilitando la comunicación efectiva para abordar necesidades informáticas específicas.
+                                <br>-Soporte Técnico Básico:
+                                Brindé soporte técnico básico a usuarios, resolviendo problemas comunes y proporcionando orientación para el uso eficiente de herramientas informáticas.
+                                <br>-Documentación de Procesos:
+                                Mantuve una documentación detallada de los procesos y procedimientos de mantenimiento, facilitando futuras referencias y la continuidad operativa del área.
+                                <br>-Mi experiencia en este servicio social ha enriquecido mis habilidades en atención al usuario y mantenimiento informático, fortaleciendo mi capacidad para contribuir de manera efectiva al entorno operativo de las instituciones. Estoy entusiasmado por aplicar estas habilidades y conocimientos en futuros roles profesionales.</td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="section">
+                    <h2>Instalación y soporte de sistemas informáticos
+                    </h2>
+                    <h3>Real De Autos Hidalgo AUDI</h3>
+                    <h4>ene. 2014 - jul. 2014 · 7 meses</h4>
+                    <table>
+                        <tr>
+                            <td>Prácticas Profesionales en Conalep Pachuca II - Real De Autos Hidalgo AUDI (Instalación y Soporte de Sistemas Informáticos)
+                                <br><br>
+                                Durante mis prácticas profesionales en Conalep Pachuca II, tuve la oportunidad de contribuir activamente al departamento de tecnología, centrándome en la instalación y soporte de sistemas informáticos en un entorno dinámico en colaboración con el equipo de Real De Autos Hidalgo AUDI. Algunos aspectos destacados de mi experiencia incluyen:
+                                <br><br>
+                                <br>-Trabajo en Equipo:
+                                Participé de manera proactiva en un entorno de trabajo colaborativo, contribuyendo al logro de objetivos compartidos y manteniendo una comunicación efectiva con colegas y supervisores.
+                                <br>-Instalación y Soporte de Software:
+                                Lideré la instalación y configuración de software informático, asegurando que todos los sistemas estuvieran operativos y alineados con las necesidades del negocio.
+                                <br> -Instalación y Soporte de Hardware:
+                                Desempeñé un papel crucial en la instalación y soporte de hardware informático, abordando eficientemente problemas y garantizando la continuidad de las operaciones.
+                                <br>-Optimización de Rendimiento:
+                                Implementé medidas para mejorar la eficiencia y el rendimiento de los sistemas informáticos, contribuyendo a un entorno de trabajo más fluido y productivo.
+                                <br>-Resolución de Problemas:
+                                Demostré habilidades sólidas en la identificación y resolución de problemas relacionados con el software y hardware, asegurando un funcionamiento sin interrupciones de los sistemas.
+                                <br>-Mi experiencia en la instalación y soporte de sistemas informáticos me ha brindado una comprensión profunda de la importancia de la colaboración, la eficiencia y la resolución de problemas en un entorno empresarial. Estoy entusiasmado por aplicar estas habilidades y contribuir al éxito de futuros proyectos y desafíos en el campo de la tecnología.</td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="section">
+                    <h2>Instalación y soporte de sistemas informáticos 
+                    </h2>
+                    <h3>Real De Autos Hidalgo AUDI</h3>
+                    <h4>ene. 2014 - jul. 2014 · 7 meses</h4>
+                    <table>
+                        <tr>
+                            <td>Prácticas Profesionales en Conalep Pachuca II - Real De Autos Hidalgo AUDI (Instalación y Soporte de Sistemas Informáticos)
+
+                                Durante mis prácticas profesionales en Conalep Pachuca II, tuve la oportunidad de contribuir activamente al departamento de tecnología, centrándome en la instalación y soporte de sistemas informáticos en un entorno dinámico en colaboración con el equipo de Real De Autos Hidalgo AUDI. Algunos aspectos destacados de mi experiencia incluyen:
+                                <br><br>
+                                <br>-Trabajo en Equipo:
+                                Participé de manera proactiva en un entorno de trabajo colaborativo, contribuyendo al logro de objetivos compartidos y manteniendo una comunicación efectiva con colegas y supervisores.
+                                <br>-Instalación y Soporte de Software:
+                                Lideré la instalación y configuración de software informático, asegurando que todos los sistemas estuvieran operativos y alineados con las necesidades del negocio.
+                                <br> -Instalación y Soporte de Hardware:
+                                Desempeñé un papel crucial en la instalación y soporte de hardware informático, abordando eficientemente problemas y garantizando la continuidad de las operaciones.
+                                <br> -Optimización de Rendimiento:
+                                Implementé medidas para mejorar la eficiencia y el rendimiento de los sistemas informáticos, contribuyendo a un entorno de trabajo más fluido y productivo.
+                                <br>-Resolución de Problemas:
+                                Demostré habilidades sólidas en la identificación y resolución de problemas relacionados con el software y hardware, asegurando un funcionamiento sin interrupciones de los sistemas.
+                                <br>-Mi experiencia en la instalación y soporte de sistemas informáticos me ha brindado una comprensión profunda de la importancia de la colaboración, la eficiencia y la resolución de problemas en un entorno empresarial. Estoy entusiasmado por aplicar estas habilidades y contribuir al éxito de futuros proyectos y desafíos en el campo de la tecnología.
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="section">
+                    <h2>Mantenimiento a la red de datos y la red de voz
+                    </h2>
+                    <h3>Tecnológico nacional de México Campus Pachuca</h3>
+                    <h4>jul. 2020 - ene. 2021 · 7 meses</h4>
+                    <table>
+                        <tr>
+                            <td>Durante mi servicio social en el Instituto Tecnológico de Pachuca, colaboré de manera integral en el Departamento del Centro de Cómputo, centrando mis esfuerzos en el mantenimiento de las redes de datos y voz. Mis responsabilidades clave incluyeron:
+                                <br><br>-Mantenimiento Correctivo y Preventivo Informático:
+                                Implementé prácticas efectivas de mantenimiento correctivo y preventivo en sistemas informáticos para garantizar la estabilidad y el rendimiento óptimo de la red de datos y voz.
+                                <br>-Programación de Módems, Routers y Puntos de Acceso (AP):
+                                Realicé la programación y configuración de módems, routers y puntos de acceso, asegurando una conectividad fluida y segura en todos los dispositivos de red.
+                                <br>-Gestión y Optimización de Redes Informáticas:
+                                Contribuí activamente a la gestión y optimización de las redes informáticas, implementando mejoras continuas para garantizar la eficiencia y la seguridad de las comunicaciones.
+                                <br>-Colaboración Interdepartamental:
+                                Trabajé en estrecha colaboración con otros departamentos para entender y abordar las necesidades específicas de las redes de datos y voz, facilitando una integración eficaz de soluciones.
+                                <br>-Documentación Detallada:
+                                Mantuve una documentación detallada de las intervenciones realizadas, proporcionando un recurso valioso para futuras referencias y para el análisis de la evolución de las redes.
+                                <br>-Mi experiencia en el mantenimiento de redes de datos y voz en un entorno educativo ha fortalecido mis habilidades técnicas y mi capacidad para abordar desafíos complejos en el ámbito de las tecnologías de la información. Estoy ansioso por aplicar estos conocimientos y contribuir al desarrollo continuo de proyectos tecnológicos en futuros entornos profesionales.
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="section">
+                    <h2>Implementación de la red de voz sobre protocolo de internet
+                    </h2>
+                    <h3>Tecnológico nacional de México Campus Pachuca</h3>
+                    <h4>ene. 2021 - jul. 2021 · 7 meses</h4>
+                    <table>
+                        <tr>
+                            <td>Residencia Profesional en el Instituto Tecnológico de Pachuca - Departamento del Centro de Cómputo (Implementación de la Red de Voz sobre Protocolo de Internet)
+                                <br><br>
+                                Durante mi residencia profesional en el Instituto Tecnológico de Pachuca, lideré la implementación exitosa de la red de voz sobre protocolo de internet (VoIP) en colaboración con el Departamento del Centro de Cómputo. A lo largo de este periodo, me enfocé en aspectos críticos de la infraestructura, destacando:
+                                <br><br>
+                                Cableado Estructurado:
+                                Planifiqué y ejecuté la implementación de un cableado estructurado eficiente para la red de voz, asegurando una conectividad sólida y confiable.
+                                <br>
+                                Programación de Módems, PBX, Routers, Switches y Puntos de Acceso (AP):
+                                Realicé la programación y configuración detallada de módems, PBX, routers, switches y puntos de acceso, garantizando una gestión integral y segura de la red VoIP.
+                                <br>
+                                Optimización de Rendimiento:
+                                Implementé medidas de optimización para mejorar el rendimiento de la red, asegurando una transmisión de voz fluida y sin interrupciones.
+                                <br> Colaboración Técnica:
+
+                                Colaboré estrechamente con profesionales del departamento y otros departamentos afines para alinear estratégicamente la implementación de la red VoIP con los objetivos organizacionales.
+                                <br>
+                                Documentación y Formación:
+                                Mantuve una documentación exhaustiva de la implementación y proporcioné capacitación a los usuarios finales para asegurar un uso efectivo de la nueva infraestructura de voz.
+                                <br>
+                                Esta experiencia ha fortalecido mi capacidad para abordar proyectos de infraestructura de red complejos, demostrando mis habilidades en cableado estructurado y configuración avanzada de dispositivos de red. Estoy emocionado por aplicar estos conocimientos adquiridos en futuras oportunidades y contribuir al desarrollo continuo de soluciones tecnológicas avanzadas.
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="section">
+                    <h2>WebMaster 
+                    </h2>
+                    <h3>Tecnológico nacional de México Campus Pachuca</h3>
+                    <h4>ene. 2021 - dic. 2023 · 3 años</h4>
+                    <table>
+                        <tr>
+                            <td>Master Web en el Tecnológico Nacional de México, Campus Pachuca (Contrato por Honorarios: 2021 - 2024)
+                                <br><br>
+                                Como Master Web en el Tecnológico Nacional de México, Campus Pachuca, he desempeñado un papel integral en la gestión y mejora de la infraestructura web de la institución. A lo largo de mi contrato por honorarios, he demostrado habilidades destacadas en el desarrollo full stack y la administración eficiente de bases de datos. Algunos de mis logros y competencias clave incluyen:
+                                <br><br>
+                                Full Stack Development:
+                                Contribuí al desarrollo full stack, abarcando tanto el front-end como el back-end de aplicaciones web, garantizando una experiencia de usuario completa y satisfactoria.
+                                <br>
+                                Gestión de Bases de Datos:
+                                Lideré la administración y optimización de bases de datos, con enfoque particular en MySQL, asegurando un rendimiento óptimo y una integridad de datos confiable.
+                                <br>
+                                Servidores CentOS:
+                                Configuré y mantuve servidores basados en CentOS, implementando medidas de seguridad y asegurando la estabilidad de los servicios web.
+                                <br>
+                                Gestión de Certificados SSL:
+                                Implementé y gestioné certificados SSL para garantizar la seguridad de las comunicaciones en línea y proteger la información sensible.
+                                <br>
+                                Optimización de Servicios Web:
+                                Mejoré la eficiencia de los servicios web mediante prácticas de optimización, lo que resultó en tiempos de carga más rápidos y una experiencia de usuario mejorada.
+                                <br>
+                                Tecnologías Dominadas:
+                                Demostré competencia en una variedad de tecnologías, incluyendo PHP, JavaScript, HTML 5, y el uso de frameworks como Bootstrap para el desarrollo ágil de interfaces.
+                                <br>
+                                Mi compromiso con la excelencia y la mejora continua ha contribuido al éxito de las operaciones web en el campus. Estoy entusiasmado por seguir aplicando mi experiencia y liderazgo en tecnologías web para impulsar el progreso y la innovación en futuros proyectos.
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+        <div id="contenedor"></div>
+        <script>
+            // Ruta del archivo HTML externo
+            var rutaArchivo = '/footer.html';
+
+            // Selecciona el elemento contenedor por su ID
+            var contenedor = document.getElementById('contenedor');
+
+            // Usa fetch para recuperar el contenido del archivo
+            fetch(rutaArchivo)
+                    .then(response => response.text())
+                    .then(html => {
+                        // Inserta el contenido HTML en el contenedor
+                        contenedor.innerHTML = html;
+                    })
+                    .catch(error => console.error('Error al cargar el archivo:', error));
+        </script>
+    </body>
+</html>
+
